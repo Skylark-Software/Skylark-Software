@@ -37,11 +37,12 @@
                     <div class="app-card janua-card">
                         <img src="images/janua-dashboard.png" alt="Janua Dashboard" class="app-screenshot">
                         <h4>Janua</h4>
-                        <p class="app-description">Custom guacd daemon with FreeRDP 3.10.3</p>
+                        <p class="app-description">Enhanced Apache Guacamole for modern Wayland remote desktop</p>
+                        <p class="janua-subtitle">Janua solves compatibility issues between Guacamole and GNOME Remote Desktop/KDE KRdp by:</p>
                         <ul class="feature-list">
-                            <li>Fixes graphics pipeline (RDPGFX) and audio issues for GNOME Remote Desktop/KDE KRdp on Wayland</li>
-                            <li>Supports modern codecs and Wayland-based systems with PipeWire</li>
-                            <li>Docker-based deployment with browser-based remote desktop access</li>
+                            <li>Building guacd against FreeRDP 3.10.3</li>
+                            <li>Patching guacamole-server to advertise RDPSND version 8</li>
+                            <li>Enabling H.264/AVC codecs for RDPGFX (required by KDE KRdp)</li>
                         </ul>
                         <a href="https://janua.me" class="btn" target="_blank" rel="noopener">Learn More</a>
                         <a href="https://github.com/Skylark-Software/Janua" class="btn btn-secondary" target="_blank" rel="noopener">View on GitHub</a>

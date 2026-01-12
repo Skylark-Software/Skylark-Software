@@ -199,6 +199,13 @@ section h4 {
     margin-bottom: 1rem;
 }
 
+.janua-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
 .feature-list {
     list-style: none;
     padding: 0;
