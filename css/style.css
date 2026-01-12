@@ -193,6 +193,19 @@ section h4 {
     border: 1px solid var(--border-color);
 }
 
+.app-logo {
+    width: 60%;
+    max-width: 300px;
+    height: auto;
+    margin: 2rem auto 0;
+    display: block;
+    opacity: 0.9;
+}
+
+.app-buttons {
+    margin-bottom: 1.5rem;
+}
+
 .app-description {
     font-weight: 600;
     color: var(--text-color);
