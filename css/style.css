@@ -193,17 +193,23 @@ section h4 {
     border: 1px solid var(--border-color);
 }
 
+.logo-container {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 2rem;
+    margin: -2rem -2rem 2rem -2rem;
+    border-radius: 8px 8px 0 0;
+}
+
 .app-logo {
-    width: 60%;
-    max-width: 300px;
+    width: 70%;
+    max-width: 350px;
     height: auto;
-    margin: 2rem auto 0;
+    margin: 0 auto;
     display: block;
-    opacity: 0.9;
 }
 
 .app-buttons {
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .app-description {
