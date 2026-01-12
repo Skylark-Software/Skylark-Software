@@ -1,0 +1,311 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2563eb;
+    --primary-hover: #1d4ed8;
+    --text-color: #1f2937;
+    --text-light: #6b7280;
+    --bg-color: #ffffff;
+    --bg-gray: #f9fafb;
+    --border-color: #e5e7eb;
+    --success-color: #10b981;
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: var(--bg-color);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #1d4ed8 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.tagline {
+    font-size: 1.25rem;
+    opacity: 0.95;
+}
+
+/* Content Sections */
+section {
+    padding: 3rem 0;
+}
+
+section h3 {
+    font-size: 1.875rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+section h4 {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-color);
+}
+
+.content {
+    background-color: var(--bg-color);
+}
+
+.content .container {
+    max-width: 800px;
+}
+
+.content p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.content ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
+
+.content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.last-updated {
+    color: var(--text-light);
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+/* Apps Section */
+.apps {
+    background-color: var(--bg-gray);
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.app-card {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.app-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.app-card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.app-card p {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: var(--primary-hover);
+}
+
+/* About Section */
+.about {
+    text-align: center;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--text-light);
+    font-size: 1.125rem;
+}
+
+/* Contact Info */
+.contact-info {
+    background-color: var(--bg-gray);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.contact-info p {
+    margin-bottom: 0.75rem;
+}
+
+/* Footer */
+footer {
+    background-color: var(--text-color);
+    color: white;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        font-size: 1.125rem;
+    }
+
+    section h3 {
+        font-size: 1.5rem;
+    }
+
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        display: none;
+    }
+
+    .logo {
+        font-size: 1.25rem;
+    }
+
+    .hero h2 {
+        font-size: 1.75rem;
+    }
+
+    .app-grid {
+        grid-template-columns: 1fr;
+    }
+}
