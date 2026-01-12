@@ -166,7 +166,7 @@ section h4 {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 2rem;
-    text-align: center;
+    text-align: left;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -199,6 +199,7 @@ section h4 {
     padding: 3rem 2rem;
     margin: -2rem -2rem 2rem -2rem;
     border-radius: 8px 8px 0 0;
+    text-align: center;
 }
 
 .app-logo {
@@ -211,6 +212,7 @@ section h4 {
 
 .app-buttons {
     margin-top: 1.5rem;
+    text-align: center;
 }
 
 .app-description {
