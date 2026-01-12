@@ -151,6 +151,7 @@ section h4 {
 /* Apps Section */
 .apps {
     background-color: var(--bg-gray);
+    padding-top: 4rem;
 }
 
 .app-grid {
