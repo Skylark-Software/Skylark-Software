@@ -155,10 +155,13 @@ section h4 {
 }
 
 .app-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .app-card {
@@ -388,9 +391,5 @@ footer p {
 
     .hero h2 {
         font-size: 1.75rem;
-    }
-
-    .app-grid {
-        grid-template-columns: 1fr;
     }
 }
