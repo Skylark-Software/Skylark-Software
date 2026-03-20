@@ -157,18 +157,15 @@ section h4 {
 .app-grid {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 2rem;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .app-card {
     background-color: var(--bg-color);
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    padding: 2rem;
+    padding: 2.5rem;
     text-align: left;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -199,8 +196,8 @@ section h4 {
 
 .logo-container {
     background: #0f0f0f;
-    padding: 1.5rem 2rem;
-    margin: -2rem -2rem 2rem -2rem;
+    padding: 1.5rem 2.5rem;
+    margin: -2.5rem -2.5rem 2rem -2.5rem;
     border-radius: 8px 8px 0 0;
     text-align: center;
     display: flex;
@@ -232,6 +229,8 @@ section h4 {
     font-weight: 600;
     color: var(--text-color);
     margin-bottom: 1rem;
+    font-size: 1.15rem;
+    line-height: 1.6;
 }
 
 .janua-subtitle {
@@ -253,8 +252,8 @@ section h4 {
     margin-bottom: 0.75rem;
     padding-left: 1.5rem;
     position: relative;
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 1.05rem;
+    line-height: 1.6;
 }
 
 .feature-list li:before {
