@@ -21,9 +21,9 @@
 body {
     font-family: var(--font-family);
     color: var(--text-color);
-    line-height: 1.7;
+    line-height: 1.8;
     background-color: var(--bg-color);
-    font-size: 1.1rem;
+    font-size: 1.25rem;
 }
 
 .container {
@@ -68,7 +68,7 @@ nav .container {
     text-decoration: none;
     color: var(--text-light);
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     transition: color 0.2s;
 }
 
@@ -101,7 +101,7 @@ section {
 }
 
 section h3 {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     margin-bottom: 1.5rem;
     color: var(--text-color);
 }
@@ -233,12 +233,12 @@ section h4 {
     font-weight: 600;
     color: var(--text-color);
     margin-bottom: 1rem;
-    font-size: 1.3rem;
-    line-height: 1.7;
+    font-size: 1.5rem;
+    line-height: 1.8;
 }
 
 .janua-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: var(--text-light);
     margin-bottom: 1rem;
     font-style: italic;
@@ -256,8 +256,8 @@ section h4 {
     margin-bottom: 0.75rem;
     padding-left: 1.5rem;
     position: relative;
-    font-size: 1.2rem;
-    line-height: 1.7;
+    font-size: 1.4rem;
+    line-height: 1.8;
 }
 
 .feature-list li:before {
@@ -277,7 +277,7 @@ section h4 {
     text-decoration: none;
     border-radius: 6px;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     transition: background-color 0.2s;
 }
 
