@@ -211,8 +211,7 @@ section h4 {
 
 .app-logo {
     height: auto;
-    width: 70%;
-    max-width: 700px;
+    max-width: 90%;
     object-fit: contain;
 }
 
