@@ -200,7 +200,7 @@ section h4 {
 
 .logo-container {
     background: #0f0f0f;
-    padding: 3rem 2.5rem;
+    padding: 1.5rem 2.5rem;
     margin: -2.5rem -2.5rem 2rem -2.5rem;
     border-radius: 8px 8px 0 0;
     text-align: center;
@@ -211,8 +211,7 @@ section h4 {
 
 .app-logo {
     height: auto;
-    width: 70%;
-    max-width: 90%;
+    max-width: 350px;
     object-fit: contain;
 }
 
