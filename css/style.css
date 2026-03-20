@@ -200,7 +200,7 @@ section h4 {
 
 .logo-container {
     background: #0f0f0f;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 2.5rem;
     margin: -2.5rem -2.5rem 2rem -2.5rem;
     border-radius: 8px 8px 0 0;
     text-align: center;
@@ -213,6 +213,10 @@ section h4 {
     height: auto;
     max-width: 500px;
     object-fit: contain;
+}
+
+.thoughtmaker-card .app-logo {
+    max-width: 350px;
 }
 
 .app-title {
