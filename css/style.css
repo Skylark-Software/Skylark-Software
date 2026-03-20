@@ -203,18 +203,20 @@ section h4 {
     margin: -2rem -2rem 2rem -2rem;
     border-radius: 8px 8px 0 0;
     text-align: center;
-    height: 120px;
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .app-logo {
-    max-height: 80px;
+    height: 50px;
     width: auto;
     max-width: 350px;
-    margin: 0 auto;
-    display: block;
+    object-fit: contain;
 }
 
 .app-title {
