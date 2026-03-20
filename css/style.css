@@ -199,16 +199,20 @@ section h4 {
 
 .logo-container {
     background: #0f0f0f;
-    padding: 3rem 2rem;
+    padding: 0 2rem;
     margin: -2rem -2rem 2rem -2rem;
     border-radius: 8px 8px 0 0;
     text-align: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .app-logo {
-    width: 70%;
+    max-height: 80px;
+    width: auto;
     max-width: 350px;
-    height: auto;
     margin: 0 auto;
     display: block;
 }
