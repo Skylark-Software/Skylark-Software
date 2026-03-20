@@ -56,6 +56,7 @@ nav .container {
     height: 150px;
     width: auto;
     opacity: 0.8;
+    margin-left: auto;
 }
 
 .logo {
