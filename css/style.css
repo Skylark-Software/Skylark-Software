@@ -52,6 +52,12 @@ nav .container {
     align-items: center;
 }
 
+.header-mark {
+    height: 50px;
+    width: auto;
+    opacity: 0.8;
+}
+
 .logo {
     display: flex;
     align-items: center;
