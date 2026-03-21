@@ -263,6 +263,11 @@ section h4 {
     max-height: 50px;
 }
 
+.bluesky-card .app-logo {
+    max-width: 625px;
+    max-height: 75px;
+}
+
 .skywire-card .logo-container {
     padding: 0.5rem 2.5rem;
 }
