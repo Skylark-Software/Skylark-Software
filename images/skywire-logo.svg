@@ -1,16 +1,16 @@
-<svg width="100%" viewBox="0 0 680 250" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     
-  <mask id="imagine-text-gaps-8drsk8" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="250" fill="white"/><rect x="144" y="89.2986831665039" width="244.7227325439453" height="88.89258575439453" fill="black" rx="2"/></mask></defs>
+  <mask id="imagine-text-gaps-xs75cm" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="240" fill="white"/><rect x="144" y="89.29833221435547" width="244.69248962402344" height="88.89303588867188" fill="black" rx="2"/></mask></defs>
 
-  <!-- Dark surface to simulate the actual UI context -->
-  <rect width="680" height="240" fill="#0d1117" rx="12" style="fill:rgb(13, 17, 23);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- No background — transparent -->
 
-  <!-- Line drawn first -->
-  <path d="M80,128 C200,70 440,62 630,104" fill="none" stroke="#4fc3f7" stroke-width="1.8" stroke-linecap="round" mask="url(#imagine-text-gaps-8drsk8)" style="fill:none;stroke:rgb(79, 195, 247);color:rgb(251, 251, 254);stroke-width:1.8px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <circle cx="80" cy="128" r="3" fill="#4fc3f7" style="fill:rgb(79, 195, 247);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-  <!-- Text on top — white, no background, nothing to block -->
+  <!-- Wordmark — white, one word, uniform weight -->
   <text x="148" y="158" font-family="'Raleway', 'Helvetica Neue', sans-serif" font-weight="300" font-size="62" fill="#ffffff" letter-spacing="2" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Raleway&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:62px;font-weight:300;text-anchor:start;dominant-baseline:auto">Skywire</text>
+
+  <!-- Sky blue arc, drawn on top -->
+  <path d="M100,128 C220,66 440,58 620,102" fill="none" stroke="#4fc3f7" stroke-width="1.6" stroke-linecap="round" mask="url(#imagine-text-gaps-xs75cm)" style="fill:none;stroke:rgb(79, 195, 247);color:rgb(251, 251, 254);stroke-width:1.6px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <circle cx="100" cy="128" r="2.8" fill="#4fc3f7" style="fill:rgb(79, 195, 247);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
 </svg>
