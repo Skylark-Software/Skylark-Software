@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="300" height="90" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
-  <!-- Janua Logo - Door/Gateway icon with text -->
-  <!-- Colors: cream/off-white (#f5f0e8) on transparent for flexibility -->
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Janua Logo - Door as "J" with "anua" text -->
 
-  <!-- Door icon - stylized open door shape -->
-  <g fill="#f5f0e8">
-    <!-- Main door frame - open door perspective -->
-    <path d="M10 8 L10 52 L30 52 L30 8 Z" fill="none" stroke="#f5f0e8" stroke-width="3"/>
-    <!-- Door panel (opened inward, showing depth) -->
-    <path d="M10 8 L22 14 L22 46 L10 52 Z" fill="#f5f0e8" opacity="0.9"/>
-    <!-- Inner door edge highlight -->
-    <path d="M22 14 L30 8 L30 52 L22 46 Z" fill="#f5f0e8" opacity="0.6"/>
+  <!-- Door frame forming the "J" -->
+  <g transform="translate(8, 5)">
+    <!-- Outer door frame - white rectangle -->
+    <rect x="2" y="0" width="22" height="50" rx="1" fill="none" stroke="#e8e0d4" stroke-width="2.5"/>
+
+    <!-- Door panel - opened inward, left side (darker) -->
+    <path d="M4.5 2.5 L14 7 L14 43 L4.5 47.5 Z" fill="#a09888" opacity="0.7"/>
+
+    <!-- Door panel - right face (lighter) -->
+    <path d="M14 7 L21.5 2.5 L21.5 47.5 L14 43 Z" fill="#c8beb0" opacity="0.5"/>
+
+    <!-- Door frame inner edge highlight -->
+    <line x1="14" y1="7" x2="14" y2="43" stroke="#d0c8bc" stroke-width="0.5" opacity="0.6"/>
   </g>
 
-  <!-- "Janua" text -->
-  <text x="42" y="42" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
-        font-size="32" font-weight="400" fill="#f5f0e8" letter-spacing="1">
-    Janua
+  <!-- "anua" text in elegant light font -->
+  <text x="40" y="43" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, 'Times New Roman', serif"
+        font-size="36" font-weight="300" fill="#e8e0d4" letter-spacing="1.5">
+    anua
   </text>
 </svg>
