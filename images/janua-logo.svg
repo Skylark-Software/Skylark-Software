@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
-  <!-- Janua Logo - Door as "J" with "anua" text -->
+  <!-- Janua Logo - Transparent version with outlined door-as-J -->
 
   <!-- Door frame forming the "J" -->
   <g transform="translate(8, 5)">
-    <!-- Outer door frame - white rectangle -->
-    <rect x="2" y="0" width="22" height="50" rx="1" fill="none" stroke="#e8e0d4" stroke-width="2.5"/>
+    <!-- Outer door frame - outlined rectangle -->
+    <rect x="2" y="0" width="22" height="50" rx="1"
+          fill="none" stroke="#b0a898" stroke-width="2"/>
 
-    <!-- Door panel - opened inward, left side (darker) -->
-    <path d="M4.5 2.5 L14 7 L14 43 L4.5 47.5 Z" fill="#a09888" opacity="0.7"/>
+    <!-- Door panel - opened inward, left face (darker fill + outline) -->
+    <path d="M4.5 2.5 L14 7 L14 43 L4.5 47.5 Z"
+          fill="#a09888" opacity="0.5" stroke="#8a7e70" stroke-width="0.8"/>
 
-    <!-- Door panel - right face (lighter) -->
-    <path d="M14 7 L21.5 2.5 L21.5 47.5 L14 43 Z" fill="#c8beb0" opacity="0.5"/>
+    <!-- Door panel - right face (lighter fill + outline) -->
+    <path d="M14 7 L21.5 2.5 L21.5 47.5 L14 43 Z"
+          fill="#c8beb0" opacity="0.4" stroke="#8a7e70" stroke-width="0.8"/>
 
-    <!-- Door frame inner edge highlight -->
-    <line x1="14" y1="7" x2="14" y2="43" stroke="#d0c8bc" stroke-width="0.5" opacity="0.6"/>
+    <!-- Center crease line -->
+    <line x1="14" y1="7" x2="14" y2="43" stroke="#8a7e70" stroke-width="0.8"/>
+
+    <!-- Top perspective lines -->
+    <line x1="4.5" y1="2.5" x2="21.5" y2="2.5" stroke="#8a7e70" stroke-width="0.5" opacity="0.5"/>
+    <!-- Bottom perspective lines -->
+    <line x1="4.5" y1="47.5" x2="21.5" y2="47.5" stroke="#8a7e70" stroke-width="0.5" opacity="0.5"/>
   </g>
 
-  <!-- "anua" text in elegant light font -->
+  <!-- "anua" text -->
   <text x="40" y="43" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, 'Times New Roman', serif"
-        font-size="36" font-weight="300" fill="#e8e0d4" letter-spacing="1.5">
+        font-size="36" font-weight="300" fill="#c0b8a8" letter-spacing="1.5">
     anua
   </text>
 </svg>
