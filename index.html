@@ -26,6 +26,7 @@
                     <button class="project-tab" data-project="eaglebranch">EagleBranch</button>
                     <button class="project-tab" data-project="bluesky">BlueSky</button>
                     <button class="project-tab" data-project="skywire">Skywire</button>
+                    <button class="project-tab" data-project="speedloader">Speedloader</button>
                 </div>
 
                 <div class="project-panel" id="janua">
@@ -146,6 +147,27 @@
                             <a href="https://github.com/Skylark-Software/Skywire" class="btn" target="_blank" rel="noopener">View on GitHub</a>
                         </div>
                         <img src="images/skywire-dashboard.png" alt="Skywire Dashboard" class="app-screenshot">
+                    </div>
+                </div>
+                <div class="project-panel" id="speedloader">
+                    <div class="app-card">
+                        <div class="logo-container">
+                            <img src="images/speedloader-logo.svg" alt="Speedloader Logo" class="app-logo">
+                        </div>
+                        <p class="app-description">Fast hybrid RAM/storage management for LLM models. Written in Rust. Keeps frequently-used models in RAM for instant access while storing others on cold storage.</p>
+                        <ul class="feature-list">
+                            <li>Multi-tier RAM storage — local DDR5, remote NVMe-oF over RDMA</li>
+                            <li>One-click promote/demote with automatic tier selection</li>
+                            <li>Fastest-fit placement with failover across pools</li>
+                            <li>Remote pool lifecycle — connect/disconnect with progress feedback</li>
+                            <li>Model pinning and async background transfers</li>
+                            <li>Support for Ollama, llama.cpp, vLLM, and HuggingFace</li>
+                        </ul>
+                        <div class="app-buttons">
+                            <a href="https://github.com/Skylark-Software/Speedloader" class="btn" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                        <img src="images/speedloader-models.png" alt="Speedloader Models" class="app-screenshot">
+                        <img src="images/speedloader-tiers.png" alt="Speedloader Storage Tiers" class="app-screenshot">
                     </div>
                 </div>
             </div>
