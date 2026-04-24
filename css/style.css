@@ -61,6 +61,7 @@ nav .container {
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-left: auto;
 }
 
 .site-logo {
