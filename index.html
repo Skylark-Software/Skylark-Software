@@ -93,13 +93,13 @@
                         <div class="logo-container">
                             <h2 class="app-title">EagleBranch</h2>
                         </div>
-                        <p class="app-description">EAGLE speculative decoding for llama.cpp. Adds EAGLE v1/v2 support for Mistral Large 3 and NextN/MTP for DeepSeek R1/V3.</p>
+                        <p class="app-description">llama.cpp fork with speculative decoding and KV cache compression for large MoE models on sub-SM80 hardware. MIT-licensed general-purpose fixes available on GitHub; proprietary extensions distributed as binary.</p>
                         <ul class="feature-list">
                             <li>EAGLE v1/v2 speculative decoding for Mistral Large 3 (675B)</li>
                             <li>NextN/MTP native speculative decoding for DeepSeek R1/V3 (671B)</li>
+                            <li>3-bit KV cache compression on Pascal and newer NVIDIA GPUs</li>
                             <li>Full MLA (Multi-head Latent Attention) and MoE support</li>
-                            <li>Auto-detection of EAGLE method from GGUF metadata</li>
-                            <li>Drop-in llama.cpp fork — 9 commits, ~1100 lines across 15 files</li>
+                            <li>MLA quantized-K bug fixes available under MIT on the public branch</li>
                         </ul>
                         <div class="app-buttons">
                             <a href="https://github.com/Skylark-Software/EagleBranch" class="btn" target="_blank" rel="noopener">View on GitHub</a>
@@ -115,7 +115,6 @@
                         <ul class="feature-list">
                             <li>Self-hosted with HTTPS reverse proxy and Tailscale — your data never leaves your infrastructure</li>
                             <li>Web client works on any device including mobile — delete the bookmark and nothing exists on your phone</li>
-                            <li>Cross international borders with no apps, no data, no trace — no Graphene phone needed</li>
                             <li>18 modules: tasks, email, calendar, recipes, finance, health, weather, knowledge base, and more</li>
                             <li>Native Qt6/C++ cross-platform desktop client — Swift for Apple coming soon</li>
                         </ul>
