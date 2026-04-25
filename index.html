@@ -93,11 +93,12 @@
                         <div class="logo-container">
                             <h2 class="app-title">EagleBranch</h2>
                         </div>
-                        <p class="app-description">llama.cpp fork with speculative decoding and KV cache compression for large MoE models on sub-SM80 hardware. MIT-licensed general-purpose fixes available on GitHub; proprietary extensions distributed as binary.</p>
+                        <p class="app-description">llama.cpp fork with TurboQuant 3-bit KV cache compression and speculative decoding (EAGLE v1/v2/v3, NextN/MTP) for current, legacy, and CPU inference. Includes multiple bug fixes that enable legacy NVIDIA hardware and a fused rotated-domain matvec kernel ("Lane B") that closes most of the throughput gap to IQ4_NL on MLA models.</p>
                         <ul class="feature-list">
-                            <li>EAGLE v1/v2 speculative decoding for Mistral Large 3 (675B)</li>
+                            <li>TurboQuant 3-bit KV cache compression — 5× smaller than f16, +2.27% PPL on Mistral Small 24B</li>
+                            <li>EAGLE v1/v2/v3 speculative decoding for Mistral Large 3 (675B)</li>
                             <li>NextN/MTP native speculative decoding for DeepSeek R1/V3 (671B)</li>
-                            <li>3-bit KV cache compression on Pascal and newer NVIDIA GPUs</li>
+                            <li>Pascal SM61 through Hopper SM90; CPU inference path on x86</li>
                             <li>Full MLA (Multi-head Latent Attention) and MoE support</li>
                             <li>MLA quantized-K bug fixes available under MIT on the public branch</li>
                         </ul>
